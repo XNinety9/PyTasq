@@ -1,0 +1,3 @@
+class TasqStore:
+    def __init__(self):
+        ...

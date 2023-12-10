@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Tasq"
+version = "0.0.1"
+description = "A command-line task manager"
+readme = "README.md" # Optional
+keywords = ["task", "tasq", "manager", "command-line"]
+
+authors = [
+    "X99 <>",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
